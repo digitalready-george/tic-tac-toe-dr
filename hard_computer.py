@@ -1,6 +1,6 @@
-from computer import Computer
+from easy_computer import Computer
 import random
-class Smart_Computer(Computer):
+class Hard_Computer(Computer):
 
     # Calculate a smart move for the computer
     def valid_move(self, grid):
